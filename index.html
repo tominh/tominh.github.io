@@ -13,7 +13,7 @@
 
 <title>Portfolio</title>
 </head>
-<body>
+<body id="home">
 <!--Navbar-->
 <nav class="navbar navbar-expand-lg fixed-top shadow-sm navbar-dark bg-primary">
     <div class="container">
@@ -24,7 +24,7 @@
     <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav ms-auto">
         <li class="nav-item">
-        <a class="nav-link" href="#">Home</a>
+        <a class="nav-link" href="#home">Home</a>
         </li>
         <li class="nav-item">
         <a class="nav-link" href="#about">About</a>
@@ -42,10 +42,12 @@
 
 <!-- Jumbotron -->
 <section class="jumbotron text-center text-white">
-    <img src="tomi.png" alt="tomi" width="200" class="rounded-circle img-thumbnail">
-    <h1 class="display-4">Tomi Nurhidayat</h1>
-    <p class="lead">Mahasiswa | SEO Specialist | Blogger</p>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,192L34.3,202.7C68.6,213,137,235,206,229.3C274.3,224,343,192,411,154.7C480,117,549,75,617,74.7C685.7,75,754,117,823,154.7C891.4,192,960,224,1029,245.3C1097.1,267,1166,277,1234,245.3C1302.9,213,1371,139,1406,101.3L1440,64L1440,320L1405.7,320C1371.4,320,1303,320,1234,320C1165.7,320,1097,320,1029,320C960,320,891,320,823,320C754.3,320,686,320,617,320C548.6,320,480,320,411,320C342.9,320,274,320,206,320C137.1,320,69,320,34,320L0,320Z"></path></svg>
+    <div class="container">
+        <img src="img/tomi.png" alt="tomi" width="200" class="rounded-circle img-thumbnail">
+        <h1 class="display-4">Tomi Nurhidayat</h1>
+        <p class="lead">Mahasiswa | SEO Specialist | Blogger | Data Enthusiast</p>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,288L48,288C96,288,192,288,288,245.3C384,203,480,117,576,112C672,107,768,181,864,192C960,203,1056,149,1152,144C1248,139,1344,181,1392,202.7L1440,224L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
 </section>
 <!-- Jumbotron Akhir -->
 
@@ -60,65 +62,219 @@
         <div class="row justify-content-center text-center">
             <div class="col-md-4">
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor veniam facere ut voluptatibus dicta, cum eum. 
-                    Et enim labore culpa?
+                    Saya seorang mahasiswa yang aktif menulis blog pribadi <a href="https://id-ayobelajar.blogspot.com">Blog Mas Tom</a>. 
+                    Selain itu, saya juga sebagai penulis lepas di <a href="https://inwepo.co/author/tomi_nh93">Inwepo.co</a>. Memiliki 
+                    pengalaman magang sebagai SEO Specialist di PT. Sinergi Ketahanan Pangan.
                 </p>
             </div>
             <div class="col-md-4">
                 <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor veniam facere ut voluptatibus dicta, cum eum. 
-                    Et enim labore culpa?
+                    Memiliki ketertarikan dalam dunia Data, Machine Learning, Web Development dan Search Engine Optimization (SEO). Profil 
+                    lain dapat dilihat pada profil linkedin <a href="https://linkedin.com/in/tominurhidayat">Tomi Nurhidayat</a>.
                 </p>
             </div>
         </div>
     </div>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0d6efd" fill-opacity="1" d="M0,256L48,240C96,224,192,192,288,176C384,160,480,160,576,181.3C672,203,768,245,864,234.7C960,224,1056,160,1152,133.3C1248,107,1344,117,1392,122.7L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0d6efd" fill-opacity="1" d="M0,192L40,181.3C80,171,160,149,240,170.7C320,192,400,256,480,266.7C560,277,640,235,720,224C800,213,880,235,960,250.7C1040,267,1120,277,1200,277.3C1280,277,1360,267,1400,261.3L1440,256L1440,320L1400,320C1360,320,1280,320,1200,320C1120,320,1040,320,960,320C880,320,800,320,720,320C640,320,560,320,480,320C400,320,320,320,240,320C160,320,80,320,40,320L0,320Z"></path></svg>
 </section>
 <!-- About Me Akhir -->
 
 <!-- Projects -->
 <section id="projects">
     <div class="container">
-        <div class="row text-center mb-4">
+        <div class="row text-center text-white mb-4">
             <div class="col">
-                <h2>Projek</h2>
+                <h2>Projects</h2>
             </div>
         </div>
         <div class="row justify-content-center text-center">
             <div class="col-md-4 mb-4">
                 <div class="card">
-                    <img src="tableau.png" class="card-img-top" alt="projek tableau" width="400">
+                    <img src="img/tableau.png" class="card-img-top" alt="projek tableau" width="400">
                     <div class="card-body">
-                    <hr>
-                    <h2><a href="https://public.tableau.com/views/WisataJawaBarat2014-2017/WisataJawaBarat2014-2017?:language=en-GB&:display_count=n&:origin=viz_share_link">Wisata Jawa Barat 2014-2017</a></h2>
-                    <p class="card-text">
-                        Disini saya membuat dashboard dengan menggunakan Tableau Public untuk memvisualisasikan Wisata Jawa 
-                        Barat dari tahun 2014 sampai 2017. Dalam project ini saya berhasil mengidentifikasi jumlah wisatawan 
-                        dari tahun ke tahun, jenis wisatawan yang datang, dan kabupaten/kota dengan jumlah pengunjung wisata 
-                        tertinggi.
-                    </p>
+                        <hr>
+                        <h4><a href="https://public.tableau.com/views/WisataJawaBarat2014-2017/WisataJawaBarat2014-2017?:language=en-GB&:display_count=n&:origin=viz_share_link">Wisata Jawa Barat 2014-2017</a></h4>
+                        <!-- accordion 1 -->
+                        <div class="accordion" id="desc1">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingOne">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                    Deskripsi
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#desc1">
+                                    <div class="accordion-body">
+                                        <p class="card-text">
+                                        Disini saya membuat dashboard dengan menggunakan Tableau Public untuk memvisualisasikan Wisata Jawa 
+                                        Barat dari tahun 2014 sampai 2017. Dalam project ini saya berhasil mengidentifikasi jumlah wisatawan 
+                                        dari tahun ke tahun, jenis wisatawan yang datang, dan kabupaten/kota dengan jumlah pengunjung wisata 
+                                        tertinggi.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- accordion 1 -->
                     </div>
                 </div>
             </div>
             <div class="col-md-4 mb-4">
                 <div class="card">
-                    <img src="tableau.png" class="card-img-top" alt="projek tableau" width="400">
+                    <img src="img/seo-specialist.png" class="card-img-top" alt="projek seo specialist" width="400">
                     <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <hr>
+                        <h4><a href="https://chickin.id/advices/cara-merawat-doc-ayam-broiler/">Salah Satu Artikel SEO</a></h4>
+                        <!-- accordion 2 -->
+                        <div class="accordion" id="desc2">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingOne">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                    Deskripsi
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#desc2">
+                                    <div class="accordion-body">
+                                        <p class="card-text">
+                                            Disini saya membuat artikel SEO pada saat magang di perusahaan yang bergerak dalam bidang 
+                                            ketahanan pangan yaitu Chickin Indonesia PT. Sinergi Ketahanan Pangan. Artikel yang saya tulis 
+                                            berhasil masuk di halaman satu Google sesuai dengan target keyword yang ditentukan.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- accordion 2 -->
                     </div>
                 </div>
             </div>
             <div class="col-md-4 mb-4">
                 <div class="card">
-                    <img src="tableau.png" class="card-img-top" alt="projek tableau" width="400">
+                    <img src="img/image_classification_2.png" class="card-img-top" alt="projek image classification 2" width="400">
                     <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <hr>
+                        <h4><a href="https://github.com/tominh/portfolio/blob/main/image_classification_5_class_machine_learning.ipynb">Image Classification 5 Class</a></h4>
+                        <!-- accordion 3 -->
+                        <div class="accordion" id="desc3">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingOne">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                    Deskripsi
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#desc3">
+                                    <div class="accordion-body">
+                                        <p class="card-text">
+                                            Dalam project ini saya membuat model images classification dengan 5 class untuk 
+                                            mengidentifikasi bangunan, hutan, gunung, laut dan gletser. Jumlah dataset yang 
+                                            digunakan sebanyak 11.652 gambar diperoleh dari kaggle.Hasilnya diperoleh Akurasi 
+                                            model 85% dengan Akurasi validasi 86%.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- accordion 3 -->
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,256L60,266.7C120,277,240,299,360,288C480,277,600,235,720,213.3C840,192,960,192,1080,165.3C1200,139,1320,85,1380,58.7L1440,32L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
+    <div class="container">
+        <div class="row justify-content-center text-center">
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="img/image_classification_1.png" class="card-img-top" alt="projek image classification 1" width="400">
+                    <div class="card-body">
+                        <hr>
+                        <h4><a href="https://github.com/tominh/portfolio/blob/main/image_classification_3_class_machine_learning.ipynb">Image Classification 3 Class</a></h4>
+                        <!-- accordion 4 -->
+                        <div class="accordion" id="desc4">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingOne">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOnFour" aria-expanded="false" aria-controls="flush-collapseOnFour">
+                                    Deskripsi
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseOnFour" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#desc4">
+                                    <div class="accordion-body">
+                                        <p class="card-text">
+                                            Dalam project ini saya membuat model images classification dengan 3 class untuk 
+                                            membedakan rock, scissors dan paper. Yaitu suit Jepang yang dikenal sebagai batu, 
+                                            gunting, kertas. Jumlah dataset yang digunakan sebanyak 2.188 gambar diperoleh 
+                                            dari dataset dicoding academy. Hasilnya diperoleh Akurasi model 95% dengan Akurasi 
+                                            validasi 98%.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- accordion 4 -->
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="img/time_series.png" class="card-img-top" alt="projek time series" width="400">
+                    <div class="card-body">
+                        <hr>
+                        <h4><a href="https://github.com/tominh/portfolio/blob/main/time_series_machine_learning.ipynb">Model Time Series</a></h4>
+                        <!-- accordion 5 -->
+                        <div class="accordion" id="desc5">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingOne">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                                    Deskripsi
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#desc5">
+                                    <div class="accordion-body">
+                                        <p class="card-text">
+                                            Disini saya membuat model machine learning time series dengan menampilkan Metrics 
+                                            MAE (Mean Absolute Error). Diperoleh nilai MAE < 0.48 yang artinya kurang dari 10% 
+                                            skala data setelah dinormalisasi.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- accordion 5 -->
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card">
+                    <img src="img/natural_language_processing.png" class="card-img-top" alt="projek nlp" width="400">
+                    <div class="card-body">
+                        <hr>
+                        <h4><a href="https://github.com/tominh/portfolio/blob/main/natural_language_processing_machine_learning.ipynb">Model NLP</a></h4>
+                        <!-- accordion 6 -->
+                        <div class="accordion" id="desc6">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingOne">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                                    Deskripsi
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#desc6">
+                                    <div class="accordion-body">
+                                        <p class="card-text">
+                                            Dalam project ini saya membuat model natural language processing untuk 
+                                            mengklasifikasi review terhadap tokopedia. Adapun yang direview berkaitan dengan 
+                                            klasifikasi review negatif, neutral dan positive. Jumlah dataset yang digunakan 
+                                            sebanyak 4.060 data review tokopedia yang diperoleh dari kaggle. Hasilnya 
+                                            diperoleh Akurasi model 80% dengan Akurasi validasi 78%.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- accordion 6 -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#fff" fill-opacity="1" d="M0,192L30,197.3C60,203,120,213,180,197.3C240,181,300,139,360,106.7C420,75,480,53,540,42.7C600,32,660,32,720,58.7C780,85,840,139,900,144C960,149,1020,107,1080,90.7C1140,75,1200,85,1260,117.3C1320,149,1380,203,1410,229.3L1440,256L1440,320L1410,320C1380,320,1320,320,1260,320C1200,320,1140,320,1080,320C1020,320,960,320,900,320C840,320,780,320,720,320C660,320,600,320,540,320C480,320,420,320,360,320C300,320,240,320,180,320C120,320,60,320,30,320L0,320Z"></path></svg>
 </section>
 <!-- Projects Akhir -->
 
@@ -130,41 +286,49 @@
                 <h2>Contact</h2>
             </div>
         </div>
-        <div class="row justify-content-center text-center">
-            <div class="col-md-4">
-                <img src="linkedin.png" alt="linkedin" width="50">
-                <div class="card-body">
-                    <h5 class="card-title">Tomi Nurhidayat</h5>
-                    <a href="#" class="btn btn-primary">Hubungi !</a>
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="alert alert-success alert-dismissible fade show my-alert d-none" role="alert">
+                    <strong>Terima kasih!</strong> Pesan anda sudah kami terima.
+                    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                 </div>
-            </div>
-            <div class="col-md-4">
-                <img src="gmail.png" alt="gmailg" width="60">
-                <div class="card-body">
-                    <h5 class="card-title">Tomi Nurhidayat</h5>
-                    <a href="#" class="btn btn-primary">Hubungi !</a>
-                </div>
+                <form name="contact-form">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Nama Lengkap</label>
+                        <input type="text" class="form-control" id="name" aria-describedby="name" name="nama">
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" aria-describedby="email" name="email">
+                    </div>
+                    <div class="mb-3">
+                        <label for="pesan" class="form-label">Pesan</label>
+                        <textarea class="form-control" id="pesan" rows="3" name="pesan"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-kirim">Submit</button>
+
+                    <button class="btn btn-primary btn-loading d-none" type="button" disabled>
+                        <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
+                        Loading...
+                    </button>
+                </form>
             </div>
         </div>
     </div>
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0d6efd" fill-opacity="1" d="M0,32L60,64C120,96,240,160,360,160C480,160,600,96,720,64C840,32,960,32,1080,48C1200,64,1320,96,1380,112L1440,128L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
 </section>
 <!-- Contact Akhir -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0d6efd" fill-opacity="1" d="M0,32L60,64C120,96,240,160,360,160C480,160,600,96,720,64C840,32,960,32,1080,48C1200,64,1320,96,1380,112L1440,128L1440,320L1380,320C1320,320,1200,320,1080,320C960,320,840,320,720,320C600,320,480,320,360,320C240,320,120,320,60,320L0,320Z"></path></svg>
 
 <!-- Footer -->
 <footer class="text-center pb-5 bg-primary text-white">
-    <p>Created with love by <a href="" class="text-white fw-bold">Tomi Nurhidayat</a></p>
+    <p>Created with love by <a href="https://linkedin.com/in/tominurhidayat" class="text-white fw-bold">Tomi Nurhidayat</a></p>
 </footer>
 <!-- Footer Akhir -->
 
 
-
-
-
-
-
-
 <!-- Option 1: Bootstrap Bundle with Popper -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<!-- JavaScript untuk form -->
+<script src="script.js"></script>
 </body>
 </html>
