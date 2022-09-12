@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- CSS Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <!-- CSS Bootstrap End -->
+
+    <!-- CSS Custom -->
+    <link rel="stylesheet" href="style.css">
+    <!-- CSS Custom End -->
+
+    <!-- Font Google -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu:wght@600;700&display=swap"
+        rel="stylesheet">
+    <!-- Font Google End -->
+
+    <title>Tools</title>
+
+</head>
+
+<body>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg fixed-top shadow-sm navbar-dark bg-primary">
+        <div class="container">
+            <a class="navbar-brand" href="#">TOOLS</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#asin">ASIN</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#umami">UMAMI</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#manis">MANIS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pahit">PAHIT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#asam">ASAM</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="formula.html">FORMULA</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!--Navbar Akhir-->
+
+    <!-- ASIN -->
+    <section id="asin">
+        <div class="container">
+            <div class="row text-center text-primary mb-4">
+                <div class="col">
+                    <h2>ASIN</h2>
+                </div>
+            </div>
+            <div class="content-asin">
+                <p>Untuk membuat membran lipid asin satu cawan petris diperlukan :</p>
+                <ol>
+                    <li>
+                        <p>TDAB : 52 mg</p>
+                    </li>
+                    <li>
+                        <p>1-Hexadecanol : 41 mg</p>
+                    </li>
+                    <li>
+                        <p>Bahan plastisizer : </p>
+                    </li>
+                    <ul>
+                        <li>
+                            <p>DOPP : 0.45 mL</p>
+                        </li>
+                        <li>
+                            <p>PVC : 400 mg</p>
+                        </li>
+                        <li>
+                            <p>THF : 1 mL</p>
+                        </li>
+                    </ul>
+                </ol>
+            </div>
+            <!-- Form asin -->
+            <div class="container">
+                <p>Mau membuat berapa cawan?</p>
+                <div class="form-asin">
+                    <form>
+                        <div class="row mb-3">
+                            <label for="cawan" class="col-sm-2 col-form-label">Jumlah Cawan</label>
+                            <div class="col-sm-10">
+                                <input type="number" class="form-control" id="cawan">
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary" onclick="myAsinFunction()">Check</button>
+                    </form>
+                </div>
+                <p id="alert-asin1"></p>
+                <p id="alert-asin2"></p>
+            </div>
+            <!-- Form asin End -->
+        </div>
+    </section>
+    <!-- ASIN End -->
+
+    <!-- UMAMI -->
+    <section id="umami">
+        <div class="container">
+            <div class="row text-center text-primary mb-4">
+                <div class="col">
+                    <h2>UMAMI</h2>
+                </div>
+            </div>
+            <div class="content-umami">
+                <p>Untuk membuat membran lipid umami satu cawan petris diperlukan :</p>
+                <ol>
+                    <li>
+                        <p>TOMA : 0.0348 mg</p>
+                    </li>
+                    <li>
+                        <p>PAEE : 0.0036 mg</p>
+                    </li>
+                    <li>
+                        <p>Bahan plastisizer : </p>
+                    </li>
+                    <ul>
+                        <li>
+                            <p>DOPP : 0.5 mL</p>
+                        </li>
+                        <li>
+                            <p>PVC : 400 mg</p>
+                        </li>
+                        <li>
+                            <p>THF : 5 mL</p>
+                        </li>
+                    </ul>
+                </ol>
+            </div>
+            <!-- Form umami -->
+            <div class="container">
+                <p>Mau membuat berapa cawan?</p>
+                <div class="form-umami">
+                    <form>
+                        <div class="row mb-3">
+                            <label for="cawan" class="col-sm-2 col-form-label">Jumlah Cawan</label>
+                            <div class="col-sm-10">
+                                <input type="number" class="form-control" id="cawan">
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary" onclick="myUmamiFunction()">Check</button>
+                    </form>
+                </div>
+                <p id="alert-umami1"></p>
+                <p id="alert-umami2"></p>
+            </div>
+            <!-- Form umami End -->
+        </div>
+    </section>
+    <!-- UMAMI End -->
+
+    <!-- MANIS -->
+    <section id="manis">
+        <div class="container">
+            <div class="row text-center text-primary mb-4">
+                <div class="col">
+                    <h2>MANIS</h2>
+                </div>
+            </div>
+            <div class="content-manis">
+                <p>Untuk membuat membran lipid manis satu cawan petris diperlukan :</p>
+                <ol>
+                    <li>
+                        <p>TDAB : 0.5 mg</p>
+                    </li>
+                    <li>
+                        <p>TRMA : 33.3 mg</p>
+                    </li>
+                    <li>
+                        <p>Bahan plastisizer : </p>
+                    </li>
+                    <ul>
+                        <li>
+                            <p>DOPP : 0.5 mg</p>
+                        </li>
+                        <li>
+                            <p>PVC : 266.67 mg</p>
+                        </li>
+                        <li>
+                            <p>THF : 5 mL</p>
+                        </li>
+                    </ul>
+                </ol>
+            </div>
+            <!-- Form manis -->
+            <div class="container">
+                <p>Mau membuat berapa cawan?</p>
+                <div class="form-manis">
+                    <form>
+                        <div class="row mb-3">
+                            <label for="cawan" class="col-sm-2 col-form-label">Jumlah Cawan</label>
+                            <div class="col-sm-10">
+                                <input type="number" class="form-control" id="cawan">
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary" onclick="myManisFunction()">Check</button>
+                    </form>
+                </div>
+                <p id="alert-manis1"></p>
+                <p id="alert-manis2"></p>
+            </div>
+            <!-- Form manis End -->
+        </div>
+    </section>
+    <!-- MANIS End -->
+
+    <!-- PAHIT -->
+    <section id="pahit">
+        <div class="container">
+            <div class="row text-center text-primary mb-4">
+                <div class="col">
+                    <h2>PAHIT</h2>
+                </div>
+            </div>
+            <div class="content-pahit">
+                <p>Untuk membuat membran lipid pahit satu cawan petris diperlukan :</p>
+                <ol>
+                    <li>
+                        <p>PAEE : 15 mg</p>
+                    </li>
+                    <li>
+                        <p>BBPA : 0.15 mL</p>
+                    </li>
+                    <li>
+                        <p>Bahan plastisizer : </p>
+                    </li>
+                    <ul>
+                        <li>
+                            <p>TBAC : 0.3 mL</p>
+                        </li>
+                        <li>
+                            <p>PVC : 360 mg</p>
+                        </li>
+                        <li>
+                            <p>THF : 5 mL</p>
+                        </li>
+                    </ul>
+                </ol>
+            </div>
+            <!-- Form pahit -->
+            <div class="container">
+                <p>Mau membuat berapa cawan?</p>
+                <div class="form-pahit">
+                    <form>
+                        <div class="row mb-3">
+                            <label for="cawan" class="col-sm-2 col-form-label">Jumlah Cawan</label>
+                            <div class="col-sm-10">
+                                <input type="number" class="form-control" id="cawan">
+                            </div>
+                        </div>
+                        <button type="submit" class="btn btn-primary" onclick="myPahitFunction()">Check</button>
+                    </form>
+                </div>
+                <p id="alert-pahit1"></p>
+                <p id="alert-pahit2"></p>
+            </div>
+            <!-- Form pahit End -->
+        </div>
+    </section>
+    <!-- PAHIT End -->
+
+
+    <!-- Footer -->
+    <div class="footer">
+        <div class="container">
+            <div class="row row-cols-1 row-cols-md-2 g-6">
+                <div class="col">
+                    <p>
+                        Laman ini dibuat untuk memudahkan pembuatan membran lipid sensor e-tongue.
+                    </p>
+                </div>
+                <div class="col"></div>
+            </div>
+            <hr>
+        </div>
+        <div class="container credit">
+            <p>Created with love by &copy; MBKM Nanosense 2022.</p>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+    <!-- Script Custom -->
+    <script src="script.js"></script>
+    <!-- Script Custom End -->
+    <!-- Script Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+    <!-- Script Bootstrap End -->
+</body>
+
+</html>
