@@ -14,5 +14,6 @@ function myAsinFunction() {
     hexadecanol = (total/715) * 315;
     document.getElementById("alert-asin1").innerHTML = "Kamu perlu TDAB : " + TDAB + " mg";
     document.getElementById("alert-asin2").innerHTML = "Kamu perlu Hexadecanol : " + hexadecanol + " mg";
+    document.getElementById("alert-asin3").innerHTML = "Kamu perlu THF : " + x + " mL";
     }
 }
